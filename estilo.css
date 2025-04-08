@@ -1,0 +1,159 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: #121212;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .navbar {
+	background-color: transparent;
+	transition: background-color 0.3s;
+  }
+  
+  .navbar-transparente {
+	background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	font-weight: 500;
+	margin-left: 15px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+	color: #1db954;
+  }
+  
+  .navbar-brand img {
+	max-height: 40px;
+  }
+  
+  .divisor {
+	border-left: 1px solid #fff;
+	height: 25px;
+	margin: 0 10px;
+  }
+  
+  section.caixa {
+	padding: 40px 0;
+  }
+  
+  .form-container {
+	background-color: #181818;
+	padding: 40px;
+	border-radius: 8px;
+	max-width: 500px;
+	margin: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  
+  .form-container h2 {
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: bold;
+  }
+  
+  .form-control {
+	background-color: #282828;
+	border: none;
+	color: #fff;
+  }
+  
+  .form-control::placeholder {
+	color: #aaa;
+  }
+  
+  .btn-custom {
+	font-weight: bold;
+	border-radius: 500px;
+	padding: 10px 20px;
+	font-size: 16px;
+	transition: 0.3s;
+  }
+  
+  .btn-roxo {
+	background-color: #1db954;
+	color: #fff;
+	border: none;
+  }
+  
+  .btn-roxo:hover {
+	background-color: #1ed760;
+  }
+  
+  .btn-branco {
+	background-color: #fff;
+	color: #000;
+  }
+  
+  .btn-facebook {
+	background-color: #3b5998;
+	color: #fff;
+	border: none;
+  }
+  
+  .btn-facebook:hover {
+	background-color: #334d84;
+  }
+  
+  .btn-google {
+	background-color: #db4437;
+	color: #fff;
+	border: none;
+  }
+  
+  .btn-google:hover {
+	background-color: #c33d2f;
+  }
+  
+  .btn-social {
+	background-color: #000;
+	color: #fff;
+  }
+  
+  ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  ul li a {
+	color: #1db954;
+	text-decoration: none;
+  }
+  
+  ul li a:hover {
+	text-decoration: underline;
+  }
+  
+  /* Carousel estilo para index.html */
+  .carousel-inner h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #fff;
+  }
+  
+  .carousel-item {
+	text-align: center;
+	padding: 80px 0;
+  }
+  
+  .carousel-control-prev i,
+  .carousel-control-next i {
+	color: #1db954;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 576px) {
+	.form-container {
+	  padding: 20px;
+	}
+  
+	.navbar-brand img {
+	  width: 120px;
+	}
+  
+	.carousel-inner h1 {
+	  font-size: 2rem;
+	}
+  }
